@@ -6,4 +6,5 @@ $(document).ready(function() {
   });
   $('#calendar').evoCalendar('selectYear', 2021);
   $('#calendar').evoCalendar('setTheme', 'Midnight blue');
+  return false;
 });
