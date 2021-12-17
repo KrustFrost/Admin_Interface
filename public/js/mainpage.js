@@ -30229,6 +30229,7 @@ $(document).ready(function () {
   $('#Login').hide(0).animate({
     height: 'toggle'
   }, 2000);
+  return false;
 });
 })();
 

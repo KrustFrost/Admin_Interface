@@ -30226,12 +30226,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 $(document).ready(function () {
   $("#edit_form").hide(0);
-  var id = $('#id_number');
-  var name = $('#name');
-  var email = $('#email');
-  var users = $("#users");
-  var deletebutton = $('#delete_button');
-  var editbutton = $('#edit_button');
+  return false;
 });
 })();
 
