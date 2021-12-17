@@ -1,0 +1,20 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/mainpage.js": "/js/mainpage.js",
+    "/js/ums.js": "/js/ums.js",
+    "/js/calendar.js": "/js/calendar.js",
+    "/js/evo-calendar.min.js": "/js/evo-calendar.min.js",
+    "/js/jquery.min.js": "/js/jquery.min.js",
+    "/js/dashboard.js": "/js/dashboard.js",
+    "/js/main.min.js": "/js/main.min.js",
+    "/css/dashboard.css": "/css/dashboard.css",
+    "/css/ums_create.css": "/css/ums_create.css",
+    "/css/library.css": "/css/library.css",
+    "/css/profile.css": "/css/profile.css",
+    "/css/app.css": "/css/app.css",
+    "/css/evo-calendar.midnight-blue.min.css": "/css/evo-calendar.midnight-blue.min.css",
+    "/css/calendar.css": "/css/calendar.css",
+    "/css/evo-calendar.min.css": "/css/evo-calendar.min.css",
+    "/css/main.min.css": "/css/main.min.css",
+    "/css/ums.css": "/css/ums.css"
+}

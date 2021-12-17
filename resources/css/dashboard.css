@@ -1,0 +1,47 @@
+@import '/node_modules/fullcalendar//main.min.css';
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 640px) {
+    #dashboard{
+        font-size: x-small;
+    }
+}
+@media (max-width: 470px) {
+    #dashboard{
+        font-size: x-small;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media (max-width: 440px) {
+    #dashboard{
+        margin: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #calendar{
+        margin: auto;
+    }
+    #total_users{
+        margin: auto;
+    }
+    #none{
+        margin: auto;
+    }
+    #recent_users{
+        margin: auto;
+    }
+    #chartjs{
+        margin: auto;
+    }
+    #calendar{
+        margin: auto;
+    }
+}
+@media (max-width: 768px){
+    #dashboard{
+        margin: 30px
+    }
+}

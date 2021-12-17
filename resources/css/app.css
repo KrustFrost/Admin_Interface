@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media (max-width: 768px) {
+    #login{
+        margin-top: 10cm;
+        position: absolute;
+        width: 100%;
+        top: 1%;
+    }
+    #login_page_top_name{
+
+    }
+    #page_name{
+        font-size: 50px;
+    }
+    #log_into_your_admin_page{
+        font-size: 10mm;
+    }
+    #form{
+        top: 10%;
+
+        max-height: 100%;
+    }
+}
+#login{
+
+}
+#login_page_top_name{
+    left: 50%;
+   top: 5%;
+}
+
+@media (max-width: 300px) {
+    #auth_photo{
+        left: 30%;
+    }
+}
+@media (max-width: 450px) {
+    #login_page_top_name{
+        width: fit-content;
+    }
+    #auth_username{
+        visibility: hidden;
+    }
+    #auth_photo{
+        position: relative;
+        left: 50%;
+    }
+}
+
+@media (max-width: 640px) {
+    #auth_username{
+
+    }
+}
+@media (max-width: 768px) {
+    #login_page_top_name{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0%;
+        width: 50%;
+    }
+    #image_logo{
+        left: 20%;
+    }
+    #nav_sticky{
+        position: sticky;
+        top: 19mm;
+        z-index: 50;
+    }
+}
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 1200px) {
+    #login_page_top_name{
+        left: 30%;
+    }    
+}
+@media (max-width: 1536px) {
+    #login_page_top_name{
+        left: 45%;
+    }    
+
+}
+#header_user{
+    background-color: rgb(15, 206, 231);
+}
+#image_logo{
+    position: absolute;
+    margin: -30px -30px -30px -30px;
+    left: 6%;
+    margin-bottom: -30px;
+}
+#side_nav{
+    background-color: rgb(24, 133, 223);
+}
+@media (max-width: 340px) {
+    #header_user{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        width: fit-content;
+    }
+}
