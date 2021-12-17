@@ -1,4 +1,10 @@
 @import '/node_modules/fullcalendar//main.min.css';
+#dashboard{
+    width: 100%;
+}
+#calendar{
+
+}
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

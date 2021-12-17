@@ -8,8 +8,8 @@
   @if(session('profile_edit'))
     <p class="text-yellow-500">{{session('profile_edit')}}</p>
   @endif
-  <div id="dashboard"  class="m-12 flex justify-center">
-  <div class="flex flex-col flex justify-center text-center w-full gap-y-40 gap-x-32 place-content-between grid xl:grid-cols-3 mr-10 md:grid-cols-1 sm:grid-cols-1 m-1">
+  <div id="dashboard"  class="m-5 flex justify-center">
+  <div class="flex flex-col flex justify-center text-center w-full gap-y-40 gap-x-24 place-content-between grid xl:grid-cols-3 mr-10 md:grid-cols-1 sm:grid-cols-1 m-1">
     <div id="total_users" class="bg-green-400 shadow-lg border-4 border-gray-900">
     <p class="text-4xl font-bold ml-6 mr-6 mt-6">Total Users</p><br>
     <p class="text-4xl text-shadow-xl mb-16">{{$user->count()}}</p>
@@ -36,7 +36,7 @@
     <p class="text-shadow-xl mb-16">{{$latestbook->Title_of_Book}}</p>
     @endif
     </div>
-    <div id='calendar' class="w-full mr-72 h-52"></div>
+    <div id='calendar' class="w-full"></div>
     <div id="total_users" class="bg-yellow-500 shadow-lg border-4 border-gray-900">
     <p class="text-4xl font-bold ml-6 mr-6 mt-6">Total Books</p><br>
     <p class="text-4xl text-shadow-xl mb-16">{{$totalbooks->count()}}</p>
