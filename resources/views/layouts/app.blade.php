@@ -10,7 +10,7 @@
   <title>Admin/Backend Interface</title>
 </head>
 <body class="bg-gray-200 overflow-x-hidden">
-<div id="header_user"class="w-screen sticky top-0 z-50 flex-shrink-0 px-8 py-4 shadow-lg flex justify-between ">
+<div id="header_user"class=" sticky top-0 z-50 flex-shrink-0 px-8 py-4 shadow-lg flex justify-between ">
 <a href="/" id="logo_link"><img id="image_logo" src="{{ asset('/storage/A.I_Logo.png') }}"  width="100" class="m-auto "></a>
     <form action="{{route('logout')}}" method="post">
                   @csrf
