@@ -31929,7 +31929,7 @@ video {
 }
 
 #login{
-  height: 100%;
+  height: auto;
 }
 
 #login_page_top_name{
