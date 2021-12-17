@@ -49,6 +49,8 @@
       <hr>
       <a class="mb-2 block px-4 py-2 mt-2 text-lg font-semibold text-white bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-black dark-mode:hover:text-white dark-mode:text-gray-200 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline text-shadow-md {{ request()->segment(1) == 'About' ? 'border-b-4 border-t-4 border-l-4 border-r-4 border-gray-900 bg-gray-300 shadow-lg text-gray-900' : '' }}" href="{{route('About')}}">About Us</a>
       <hr>
+      <a class="mb-2 block px-4 py-2 mt-2 text-lg font-semibold text-white bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-black dark-mode:hover:text-white dark-mode:text-gray-200 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline text-shadow-md {{ request()->segment(1) == 'Team' ? 'border-b-4 border-t-4 border-l-4 border-r-4 border-gray-900 bg-gray-300 shadow-lg text-gray-900' : '' }}" href="{{route('Team')}}">Team</a>
+      <hr>
         </div>
         @yield('content')
       </div>
