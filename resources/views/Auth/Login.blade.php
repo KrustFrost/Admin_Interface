@@ -1,6 +1,6 @@
 <link href="{{mix('css/app.css')}}" rel="stylesheet">
 <div class="flex justify-center object-contain">
-<div id="login" class="bg-gradient-to-r from-green-400 to-blue-500 flex flex-col w-6/12 p-5 relative " id="Login">
+<div id="login" class="bg-gradient-to-r from-green-400 to-blue-500 flex flex-col w-6/12 p-5" id="Login">
 <div class="mt-20">
 <p id="log_into_your_admin_page" class=" font-serif text-6xl p-10 font-mono flex justify-center">Login to your Admin page</p>
 <div id="form" class="flex justify-center">
